@@ -17,9 +17,7 @@ spec:
     targetRevision: HEAD
     path: ./declarative/manifests
    
-    # directory
-    directory:
-      recurse: false
+   
   # Destination cluster and namespace to deploy the application
   destination:
     server: https://kubernetes.default.svc
